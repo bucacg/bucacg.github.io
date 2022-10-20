@@ -17,21 +17,290 @@
 <p>对于全日制研究生和非全日制研究生，我的建议就是能全日制就不要非全日制。</p>
 <h3 id="四-终身学习"><a href="#四-终身学习" class="headerlink" title="四.终身学习"></a>四.终身学习</h3><p>学习本身并不难，最难的是坚持。对于程序员来说，学习能力和兴趣很大程度上决定个人能力，公司不会因为你什么都不会，而简历上一句我特能吃苦耐劳去给你offer。</p>
 <h3 id="五-未来"><a href="#五-未来" class="headerlink" title="五.未来"></a>五.未来</h3><p>目前的自己很菜，但是我会一直坚持下去，一点点的去啃，一点点的去进步，一点点的去积累。过去，车马很慢，一生很难走出去。如今，车水马龙，却总是迷失在灯红酒绿中。</p>
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=536623312&auto=0&height=66"></iframe>
 ]]></content>
       <tags>
         <tag>随笔</tag>
       </tags>
   </entry>
   <entry>
-    <title>Markdown 快速入门</title>
-    <url>/2022/10/17/Markdown-%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/</url>
-    <content><![CDATA[<h1 id="Markdown快速入门（typora）"><a href="#Markdown快速入门（typora）" class="headerlink" title="Markdown快速入门（typora）"></a>Markdown快速入门（typora）</h1><span id="more"></span>
+    <title>Python(胶水语言)入门</title>
+    <url>/2022/10/20/Python%E6%88%90%E9%95%BF%E8%AE%B0/</url>
+    <content><![CDATA[<h3 id="python基础"><a href="#python基础" class="headerlink" title="python基础"></a><em>python基础</em></h3><span id="more"></span>
 
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=536623312&auto=0&height=66"></iframe>
+<p><em>先安利学习网站</em></p>
+<p><a href="http://c.biancheng.net/python/">C语言中文网</a> </p>
+<p><a href="https://www.cnblogs.com/">博客网</a></p>
+<p><a href="https://www.runoob.com/">菜鸟教程</a></p>
+<h2 id="一-Python相关"><a href="#一-Python相关" class="headerlink" title="一.Python相关"></a>一.Python相关</h2><h3 id="1-Python前景"><a href="#1-Python前景" class="headerlink" title="1.Python前景"></a>1.Python前景</h3><h6 id="爬虫工程师"><a href="#爬虫工程师" class="headerlink" title="爬虫工程师"></a>爬虫工程师</h6><p>​    爬数据分析</p>
+<h6 id="Web开发工程师"><a href="#Web开发工程师" class="headerlink" title="Web开发工程师"></a>Web开发工程师</h6><p>​    网页设计（前端）<br>    通过后台处理，返回给前端（后端）<br>    小程序，网站，app等</p>
+<h3 id="2-编程语言"><a href="#2-编程语言" class="headerlink" title="2.编程语言"></a>2.编程语言</h3><h4 id="1-何为编程语言"><a href="#1-何为编程语言" class="headerlink" title="1.何为编程语言"></a>1.何为编程语言</h4><p>编程就是编写程序，程序就是一系列指令，告诉计算机做什么。</p>
+<p>编程语言就是我们能让计算机识别的语言。</p>
+<h4 id="2-编程语言发展史"><a href="#2-编程语言发展史" class="headerlink" title="2.编程语言发展史"></a>2.编程语言发展史</h4><ul>
+<li><p>机器码:  0   1</p>
+<p>​	二进制   八进制    十进制  十六进制</p>
+</li>
+<li><p>汇编语言</p>
+</li>
+<li><p>高级语言</p>
+<p>​	用人类的方式来编写程序</p>
+<p>​	高级语言的老大哥C</p>
+<pre><code>  Java   go python. 都有c的影子
+</code></pre>
+<h3 id="3-Python特点"><a href="#3-Python特点" class="headerlink" title="3.Python特点"></a>3.Python特点</h3><p>​	Python（胶水语言）简单灵活易上手。可配合其他语言使用。可用于游戏开发，系统管理，web应用，web安全，爬虫……</p>
+<h3 id="4-Python官网-卡"><a href="#4-Python官网-卡" class="headerlink" title="4.Python官网:(卡)"></a>4.Python官网:(卡)</h3><h4 id="网站以及问题"><a href="#网站以及问题" class="headerlink" title="网站以及问题"></a>网站以及问题</h4><p>​	[官网]<a href="https://www.python.org/downloads/">https://www.python.org/downloads/</a></p>
+<p>​	验证是否安装成功: cmd里输入python出现版本则成功<br>为什么要加入环境变量呢？为了让计算机知道Python的位置<br>如何卸载干净？打开控制面板——_卸载程序_找到卸载程序——卸载	</p>
+<h2 id="二-输入-amp-输出"><a href="#二-输入-amp-输出" class="headerlink" title="二.输入 &amp;输出"></a>二.输入 &amp;输出</h2><p>​	所有符号英文状态。必须有双引号</p>
+<h3 id="1-输入input（“系统提示内容”）"><a href="#1-输入input（“系统提示内容”）" class="headerlink" title="1.输入input（“系统提示内容”）"></a>1.输入input（“系统提示内容”）</h3><p>​	input (“系统提示的内容”)#input是提示用户输入什么的<br>input ()#获取你键盘输入的数据<br>input (“请输入电话号:”)#程序运行后会暂停等待你回车，继续执行</p>
+<h3 id="2-输出print-“输出内容”"><a href="#2-输出print-“输出内容”" class="headerlink" title="2.输出print(“输出内容”)"></a>2.输出print(“输出内容”)</h3><p>​	怎么输出引号？</p>
+<h2 id="三-注释"><a href="#三-注释" class="headerlink" title="三.注释"></a>三.注释</h2><p>给程序做批注的，不会显示到程序中去</p>
+<p>不想打印时可用</p>
+<ul>
+<li>单行注释</li>
+</ul>
+<figure class="highlight py"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 2022年10月19号</span></span><br><span class="line"><span class="comment"># 作者：bucacg</span></span><br><span class="line"><span class="comment"># 注释的demo</span></span><br><span class="line"><span class="built_in">input</span>(<span class="string">&quot;请输入你的名字：&quot;</span>)</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;注释&quot;</span>)</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><p>多行注释</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&quot;&quot;&quot;</span><br><span class="line">三对引号内多行注释的内容，都不会对程序造成影响，</span><br><span class="line">但必须英文状态下的三对符号</span><br><span class="line">&quot;&quot;&quot;</span><br><span class="line"></span><br><span class="line">&quot;&quot;&quot;</span><br><span class="line">2022年10月19号</span><br><span class="line">作者：bucacg</span><br><span class="line">注释的demo</span><br><span class="line">&quot;&quot;&quot;</span><br></pre></td></tr></table></figure></li>
+</ul>
+<h2 id="四-开发模式"><a href="#四-开发模式" class="headerlink" title="四.开发模式"></a>四.开发模式</h2><h4 id="1-命令行模式（交互模式）"><a href="#1-命令行模式（交互模式）" class="headerlink" title="1.命令行模式（交互模式）"></a>1.命令行模式（交互模式）</h4><ul>
+<li>win + r   输入cmd ，打开黑窗口   》》 输入 Python 》》 这就是命令行模式</li>
+</ul>
+<h4 id="2-文本模式（脚本模式）idle可打开"><a href="#2-文本模式（脚本模式）idle可打开" class="headerlink" title="2.文本模式（脚本模式）idle可打开"></a>2.文本模式（脚本模式）idle可打开</h4><ul>
+<li>new file  新建        open file来修改，</li>
+<li>鼠标右键新建文本txt— 编写Python代码–修改文件名的后缀 为 .py</li>
+<li>两者区别：<ul>
+<li>命令行不能长期保存代码 ，不太好进行 修改， 好处就是方便我们测试一些模块的简单使用，以及快速打印变量的值</li>
+<li>文本的就能够长期保存我们的代码  下次修改 也是比较方便， 我们一般开发也是基于文本模式</li>
+</ul>
+</li>
+</ul>
+<h2 id="五-数据类型与变量"><a href="#五-数据类型与变量" class="headerlink" title="五.数据类型与变量"></a>五.数据类型与变量</h2><h3 id="何为变量"><a href="#何为变量" class="headerlink" title="何为变量"></a>何为变量</h3><p>输出变量不需要引号</p>
+<p>目的：计算两个数的和</p>
+<p>场景：我们去超市购物，用菜篮来装东西（肉，菜，调味品）购物结束，需要去结算金额</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># a 表示青菜 价格</span></span><br><span class="line"><span class="comment"># b 表示肉 价格</span></span><br><span class="line">a = <span class="number">12</span>   <span class="comment"># a 存放了  数据 12 </span></span><br><span class="line">b = <span class="number">32</span></span><br><span class="line">result = a+b</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;最后结果为&quot;</span>, a+b)</span><br></pre></td></tr></table></figure>
+
+<p>小结：</p>
+<ul>
+<li><strong>变量就是一个容器可以是菜篮子,存储各种数据，也可以存储一个数据</strong></li>
+<li><strong>程序用来处理数据的，变量则是用来存储数据的</strong></li>
+</ul>
+<h3 id="数据类型"><a href="#数据类型" class="headerlink" title="数据类型"></a>数据类型</h3><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">- <span class="built_in">int</span>    （整形）  <span class="number">123</span> <span class="number">10000</span> </span><br><span class="line">- <span class="built_in">float</span>  （浮点数） <span class="number">3.14</span> </span><br><span class="line">- <span class="built_in">bool</span> 布尔类型     <span class="literal">True</span> 真   <span class="literal">False</span> 假</span><br><span class="line">- <span class="built_in">str</span>（字符串）  <span class="string">&quot;引号里的就是字符串&quot;</span></span><br><span class="line">- <span class="built_in">tuple</span>（元组）</span><br><span class="line">- <span class="built_in">dict</span>（字典）</span><br><span class="line">- <span class="built_in">list</span>（列表）</span><br><span class="line">- <span class="built_in">set</span>（集合）</span><br></pre></td></tr></table></figure>
+
+<h3 id="怎样知道一个变量的类型呢"><a href="#怎样知道一个变量的类型呢" class="headerlink" title="怎样知道一个变量的类型呢"></a>怎样知道一个变量的类型呢</h3><blockquote>
+<p>type(变量名)  会返回变量的类型</p>
+<p>在Python中，只要我们自己定义好变量后，解释器就会自动识别他的一个类型 ，不需要我们自动说明</p>
+<p>type一次只能查看一个数据类型</p>
+</blockquote>
+<h3 id="int整形"><a href="#int整形" class="headerlink" title="int整形"></a>int整形</h3><blockquote>
+<p>人数，日期，牙齿的数量，</p>
+</blockquote>
+<p>声明方式</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">变量名 = 整数值</span><br><span class="line">a = <span class="number">12</span></span><br><span class="line">b = <span class="number">32</span></span><br><span class="line">d,f，e = <span class="number">23</span>,<span class="number">22222223</span>,<span class="number">5662</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="float-浮点型"><a href="#float-浮点型" class="headerlink" title="float 浮点型"></a>float 浮点型</h3><blockquote>
+<p>金钱，身高，体重，圆周率</p>
+</blockquote>
+<p>声明方式</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">变量名 = 浮点数</span><br><span class="line">num1 =  <span class="number">3.14</span></span><br><span class="line">height = <span class="number">1.78</span></span><br><span class="line"><span class="built_in">print</span>(height)</span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">type</span>(height))</span><br></pre></td></tr></table></figure>
+
+<p>注意：</p>
+<blockquote>
+<p>浮点类型的计算是不精准的，两个浮点值运算，可能会丢失精度(带小数点的十进制数据,转为二进制数据的时候会丢失) 0.3 -0.2 不等于0.1 </p>
+</blockquote>
+<h3 id="bool-类型"><a href="#bool-类型" class="headerlink" title="bool 类型"></a>bool 类型</h3><blockquote>
+<p>生活的 真 与 假 </p>
+</blockquote>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">变量名 = 布尔值</span><br><span class="line"></span><br><span class="line">flag = <span class="literal">True</span></span><br><span class="line">lose = <span class="literal">False</span></span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>注意：</p>
+<ul>
+<li>首字母必须要大写，</li>
+<li>布尔类型，也可以是数值， 并且运算，True &#x3D; 1  False &#x3D; 0</li>
+</ul>
+<h2 id="五-标识符与关键字"><a href="#五-标识符与关键字" class="headerlink" title="五.标识符与关键字"></a>五.标识符与关键字</h2><h3 id="什么是标识符"><a href="#什么是标识符" class="headerlink" title="什么是标识符"></a>什么是标识符</h3><p><img src="D:/02%E5%8F%98%E9%87%8F%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B.assets/1655048857217.png" alt="1655048857217"></p>
+<h3 id="标识符规则"><a href="#标识符规则" class="headerlink" title="标识符规则"></a>标识符规则</h3><ul>
+<li>标识符由字母、下划线和数字组成，且数字不能开头</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">   fromNo12	 <span class="comment">#True   </span></span><br><span class="line"><span class="keyword">from</span><span class="comment">#12      #False</span></span><br><span class="line">my_Boolean   <span class="comment">#True</span></span><br><span class="line">my-Boolean   <span class="comment">#False</span></span><br><span class="line">Obj2         <span class="comment">#True</span></span><br><span class="line">2ndObj       <span class="comment">#False</span></span><br><span class="line">myInt        <span class="comment">#True</span></span><br><span class="line">test1        <span class="comment">#True</span></span><br><span class="line">Mike2jack    <span class="comment">#True</span></span><br><span class="line">My_tExt      <span class="comment">#True</span></span><br><span class="line">_test        <span class="comment">#True</span></span><br><span class="line">test!<span class="number">32</span>      <span class="comment">#True</span></span><br><span class="line">haha(da)tt   <span class="comment">#False</span></span><br><span class="line"><span class="built_in">int</span>   <span class="comment"># int 类型标识符  不要与Python解释器的重复，会产生冲突    #False</span></span><br><span class="line">jack_roseint  <span class="comment">#True  </span></span><br><span class="line">jack&amp;rose     <span class="comment">#False</span></span><br><span class="line">GUI           <span class="comment">#False</span></span><br><span class="line">G.U.I         <span class="comment">#False</span></span><br></pre></td></tr></table></figure>
+
+<p><strong>Python 标识符是区分大小写</strong> </p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">Andy != andy </span><br></pre></td></tr></table></figure>
+
+<h3 id="命名规则"><a href="#命名规则" class="headerlink" title="命名规则"></a>命名规则</h3><ul>
+<li><p>见面知意</p>
+<blockquote>
+<p>起一个有意义的名字，尽量做到看一眼就知道是什么意思(提高代码可 读性) 比如: 名字 就定义为 name , 定义学生 用 student</p>
+</blockquote>
+</li>
+</ul>
+<p><img src="D:/02%E5%8F%98%E9%87%8F%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B.assets/1655049741609.png" alt="1655049741609"></p>
+<h4 id="驼峰命名法"><a href="#驼峰命名法" class="headerlink" title="驼峰命名法"></a>驼峰命名法</h4><blockquote>
+<p>小驼峰式命名法（lower camel case）： 第一个单词以小写字母开始；第二个单词的首字母大写，例如：myName、aDog<br>大驼峰式命名法（upper camel case）： 每一个单字的首字母都采用大写字母，例如：FirstName、LastName</p>
+<p>​</p>
+</blockquote>
+<h3 id="下划线命名法"><a href="#下划线命名法" class="headerlink" title="下划线命名法"></a>下划线命名法</h3><p>还有一种命名法是用下划线“_”来连接所有的单词，比如<code>send_buf</code> 、 <code>save_img</code>， </p>
+<p><strong>小结：</strong></p>
+<ul>
+<li>推荐使用下划线的命名法来定义变量名</li>
+<li>不要与关键字重名</li>
+</ul>
+<h4 id="关键字"><a href="#关键字" class="headerlink" title="关键字"></a>关键字</h4><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">and</span>     <span class="keyword">as</span>      <span class="keyword">assert</span>     <span class="keyword">break</span>     <span class="keyword">class</span>      <span class="title class_">continue</span>    <span class="keyword">def</span>     <span class="title function_">del</span></span><br><span class="line"><span class="keyword">elif</span>    <span class="keyword">else</span>    <span class="keyword">except</span>     <span class="built_in">exec</span>      <span class="keyword">finally</span>    <span class="keyword">for</span>         <span class="keyword">from</span>    <span class="keyword">global</span></span><br><span class="line"><span class="keyword">if</span>      <span class="keyword">in</span>      <span class="keyword">import</span>     <span class="keyword">is</span>        <span class="keyword">lambda</span>     <span class="keyword">not</span>         <span class="keyword">or</span>      <span class="keyword">pass</span></span><br><span class="line"><span class="built_in">print</span>   <span class="keyword">raise</span>   <span class="keyword">return</span>     <span class="keyword">try</span>       <span class="keyword">while</span>      <span class="keyword">with</span>        <span class="keyword">yield</span></span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>通过Python shell 来查看关键字</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="keyword">import</span> keyword </span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>keyword.kwlist </span><br></pre></td></tr></table></figure>
+
+<p>或者</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="built_in">help</span>(<span class="string">&#x27;keywords&#x27;</span>)</span><br></pre></td></tr></table></figure>
+
+<p><strong>小结：</strong></p>
+<ul>
+<li>关键字的学习以及使用，咱们会在后面的课程中依一一进行学习。 </li>
+<li>关键字不需要同学们进行记忆，大家只要经常使用，就会记住了</li>
+<li>变量名也不要与关键字重名</li>
+</ul>
+<h2 id="六-运算符"><a href="#六-运算符" class="headerlink" title="六.运算符"></a>六.运算符</h2><p>提到运算符，我想大家首先想到的就是加、减、乘、除之类，但python可以进行的运算有很多种，可不只加减乘除这么简单 ，我们写代码时常见的运算符有以下几种</p>
+<h3 id="1-算术运算符"><a href="#1-算术运算符" class="headerlink" title="1.算术运算符"></a>1.算术运算符</h3><p>下面以a&#x3D;10 ,b&#x3D;20为例进行计算</p>
+<table>
+<thead>
+<tr>
+<th>运算符</th>
+<th>描述</th>
+<th>实例</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>+</td>
+<td>加</td>
+<td>两个对象相加 a + b 输出结果 30</td>
+</tr>
+<tr>
+<td>-</td>
+<td>减</td>
+<td>得到负数或是一个数减去另一个数 a - b 输出结果 -10</td>
+</tr>
+<tr>
+<td>*</td>
+<td>乘</td>
+<td>两个数相乘或是返回一个被重复若干次的字符串 a * b 输出结果 200</td>
+</tr>
+<tr>
+<td>&#x2F;</td>
+<td>除</td>
+<td>b &#x2F; a 输出结果 2</td>
+</tr>
+<tr>
+<td>&#x2F;&#x2F;</td>
+<td>取整除</td>
+<td>返回商的整数部分 9&#x2F;&#x2F;2 输出结果 4 , 9.0&#x2F;&#x2F;2.0 输出结果 4.0</td>
+</tr>
+<tr>
+<td>%</td>
+<td>取余</td>
+<td>返回除法的余数 b % a 输出结果 0</td>
+</tr>
+<tr>
+<td>**</td>
+<td>指数</td>
+<td>a**b 为10的20次方， 输出结果 100000000000000000000</td>
+</tr>
+</tbody></table>
+<blockquote>
+<p>注意：混合运算时，优先级顺序为： ** 高于 * &#x2F; % &#x2F;&#x2F; 高于 + - ，为了避免歧义，建议使用 () 来处理运算符优先级。<br>并且，不同类型的数字在进行混合运算时，整数将会转换成浮点数进行运算。	</p>
+</blockquote>
+<h3 id="2-赋值运算符"><a href="#2-赋值运算符" class="headerlink" title="2.赋值运算符"></a>2.赋值运算符</h3><table>
+<thead>
+<tr>
+<th>运算符</th>
+<th>描述</th>
+<th>实例</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>&#x3D;</td>
+<td>赋值运算符</td>
+<td>把 &#x3D; 号<em>右边的结果 赋给 左边的变量</em>，如 num &#x3D; 1 + 2 * 3，结果num的值为7</td>
+</tr>
+</tbody></table>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 单个变量赋值</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>num = <span class="number">10</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>num</span><br><span class="line"><span class="number">10</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 多个变量赋值</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>num1, num2, f1, str1 = <span class="number">100</span>, <span class="number">200</span>, <span class="number">3.14</span>, <span class="string">&quot;hello&quot;</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>num1</span><br><span class="line"><span class="number">100</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>num2</span><br><span class="line"><span class="number">200</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>f1</span><br><span class="line"><span class="number">3.14</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>str1</span><br><span class="line"><span class="string">&quot;hello&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 输出多个变量</span></span><br><span class="line"><span class="built_in">print</span>(num1, num2, f1, str1)</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>复合赋值运算符</p>
+<table>
+<thead>
+<tr>
+<th>运算符</th>
+<th>描述</th>
+<th>实例</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>+&#x3D;</td>
+<td>加法赋值运算符</td>
+<td>c +&#x3D; a 等效于 c &#x3D; c + a</td>
+</tr>
+<tr>
+<td>-&#x3D;</td>
+<td>减法赋值运算符</td>
+<td>c -&#x3D; a 等效于 c &#x3D; c - a</td>
+</tr>
+<tr>
+<td>*&#x3D;</td>
+<td>乘法赋值运算符</td>
+<td>c *&#x3D; a 等效于 c &#x3D; c * a</td>
+</tr>
+<tr>
+<td>&#x2F;&#x3D;</td>
+<td>除法赋值运算符</td>
+<td>c &#x2F;&#x3D; a 等效于 c &#x3D; c &#x2F; a</td>
+</tr>
+<tr>
+<td>%&#x3D;</td>
+<td>取模赋值运算符</td>
+<td>c %&#x3D; a 等效于 c &#x3D; c % a</td>
+</tr>
+<tr>
+<td>**&#x3D;</td>
+<td>幂赋值运算符</td>
+<td>c **&#x3D; a 等效于 c &#x3D; c **a</td>
+</tr>
+<tr>
+<td>&#x2F;&#x2F;&#x3D;</td>
+<td>取整除赋值运算符</td>
+<td>c &#x2F;&#x2F;&#x3D; a 等效于 c &#x3D; c &#x2F;&#x2F; a</td>
+</tr>
+</tbody></table>
+<h2 id="作业"><a href="#作业" class="headerlink" title="作业"></a>作业</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"> 1.用变量存储我们生活中的数值信息,并输出  </span><br><span class="line">   ``年龄</span><br><span class="line">   ``身高</span><br><span class="line">   ``生日</span><br><span class="line">   ``日期</span><br><span class="line">   ``时间</span><br><span class="line"> ``tips: 年龄为int类型 身高为float类型 生日为int类型 日期为int类型 时间 int类型</span><br><span class="line"> </span><br><span class="line"> 2.用什么函数可以知道变量的类型</span><br><span class="line"> 	tips：自己定义两个变量，用Python内置函数</span><br><span class="line"> </span><br><span class="line">3.判断以下变量是否正确, 并且用True（对） False（错）表示对错</span><br><span class="line">	_=6			(T)</span><br><span class="line">	_8=12		(T)</span><br><span class="line">	6age=12 	(F)</span><br><span class="line">	true=23 	(T)</span><br><span class="line">	print=22	(T)</span><br><span class="line"></span><br><span class="line">	</span><br><span class="line">4.用编程计算 a = 10，b = 20 的 加，减，乘，除。 并且打印出结果</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">5.交换两个变量的值，a = 10 ,b =20   变成 a =20 ,b=10</span><br><span class="line">	不能直接复值 a =20 b =10</span><br><span class="line">	tips：利用Python特殊机制</span><br><span class="line">		  算数运算符</span><br><span class="line">		  第三个变量</span><br><span class="line">		  </span><br><span class="line">6.变量赋值：如何将100赋值给变量A，将100.0赋值给变量B；并分别判断A，B的变量类型	</span><br><span class="line"></span><br><span class="line">7.如何将 Hello，world!赋值给变量C，并判断C的变量类型</span><br><span class="line"></span><br><span class="line">8.如何实现将对象 1, 2, john 同时复制给变量a,b,c(一行代码)</span><br><span class="line"></span><br><span class="line">9.请找出下面代码的错误</span><br><span class="line">   break=1  # </span><br><span class="line">   print(break)</span><br><span class="line">	</span><br><span class="line"></span><br><span class="line"> </span><br></pre></td></tr></table></figure>
+
+<p>​</p>
+<h2 id="巩固博客"><a href="#巩固博客" class="headerlink" title="巩固博客"></a>巩固博客</h2><ul>
+<li><a href="http://c.biancheng.net/view/2171.html">http://c.biancheng.net/view/2171.html</a></li>
+<li>前期不建议你们使用pycharm ， 为什么， 因为他会自动提示， 补全代码</li>
+<li>idle，方便练习代码    </li>
+<li>pycharm 熟悉了再用</li>
+</ul>
+<p>​</p>
+<p>​</p>
+<p>​</p>
+<p>​</p>
+<p>​</p>
+<p>​</p>
+<p>​</p>
+<p>​</p>
+<p>​</p>
+</li>
+</ul>
+<p>	</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Markdown 快速入门（typora）</title>
+    <url>/2022/10/17/Markdown-%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/</url>
+    <content><![CDATA[<h3 id="Markdown入门1"><a href="#Markdown入门1" class="headerlink" title="Markdown入门1"></a>Markdown入门1</h3><span id="more"></span>
 
 <p>ctrl +shift +1   来呈现菜单</p>
-<h2 id="1-代码块："><a href="#1-代码块：" class="headerlink" title="1.代码块："></a>1.代码块：</h2><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//代码块语法：(英文状态下)</span></span><br><span class="line">```java</span><br><span class="line">    </span><br><span class="line">```shell</span><br></pre></td></tr></table></figure>
+<h2 id="1-代码块："><a href="#1-代码块：" class="headerlink" title="1.代码块："></a>1.代码块：</h2><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//代码块语法：(英文状态下)</span></span><br><span class="line">​```java</span><br><span class="line">    </span><br><span class="line">​```shell</span><br></pre></td></tr></table></figure>
 
 <p>1.java代码</p>
 <figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">package</span> day01;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> java.util.Arrays;</span><br><span class="line"><span class="keyword">import</span> java.util.Iterator;</span><br><span class="line"></span><br><span class="line"><span class="comment">/*一维数组</span></span><br><span class="line"><span class="comment"> * 1.数组的定义</span></span><br><span class="line"><span class="comment"> * 2.向数组中添加元素</span></span><br><span class="line"><span class="comment"> * 3.获取数组中的一个元素</span></span><br><span class="line"><span class="comment"> * 4.获取数组的空间个数</span></span><br><span class="line"><span class="comment"> * 5.获取每一个元素 迭代 遍历</span></span><br><span class="line"><span class="comment"> * 6.数组的复制</span></span><br><span class="line"><span class="comment"> * 7.数组的排序</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">Test101</span> &#123;</span><br><span class="line">	<span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">		<span class="comment">//1.数组的四种定义</span></span><br><span class="line">		<span class="type">int</span> []arr;</span><br><span class="line">		arr=<span class="keyword">new</span> <span class="title class_">int</span> [<span class="number">100</span>];</span><br><span class="line">		</span><br><span class="line">		<span class="type">int</span> []arr1 =<span class="keyword">new</span> <span class="title class_">int</span> [<span class="number">3</span>];</span><br><span class="line">		<span class="type">int</span> []arr2=<span class="keyword">new</span> <span class="title class_">int</span> [] &#123;<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>&#125;;</span><br><span class="line">		<span class="type">int</span> []arr3= &#123;<span class="number">5</span>,<span class="number">6</span>,<span class="number">7</span>,<span class="number">8</span>&#125;;</span><br><span class="line">		<span class="comment">//2.向数组中添加元素</span></span><br><span class="line">		arr1[<span class="number">0</span>]=<span class="number">10</span>;<span class="comment">//指定一个空间个数去赋值，该空间位置通过索引值即下标来找到，该索引值从0开始</span></span><br><span class="line">		arr[<span class="number">1</span>]=<span class="number">20</span>;</span><br><span class="line">		arr[<span class="number">2</span>]=<span class="number">30</span>;</span><br><span class="line">	    <span class="comment">//3.获取数组中的一个元素</span></span><br><span class="line">		System.out.println(arr[<span class="number">1</span>]);</span><br><span class="line">		<span class="comment">//4.获取数组的的空间个数</span></span><br><span class="line">		System.out.println(<span class="string">&quot;该数组的空间个数为：&quot;</span>+arr3.length);</span><br><span class="line">		<span class="comment">//5.获取数组的每一个元素的两种方法 遍历 迭代</span></span><br><span class="line">		<span class="keyword">for</span> (<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">0</span>; i &lt; arr3.length; i++) &#123;</span><br><span class="line">			System.out.println(arr3[i]);</span><br><span class="line">		&#125;</span><br><span class="line">			System.out.println(<span class="string">&quot;==============数组遍历方法二=========&quot;</span>);</span><br><span class="line">		<span class="keyword">for</span> (<span class="type">int</span> m : arr3) &#123;</span><br><span class="line">			System.out.println(m);</span><br><span class="line">		&#125;</span><br><span class="line">		System.out.println(<span class="string">&quot;==============数组的遍历三============&quot;</span>);</span><br><span class="line">		<span class="keyword">for</span> (<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">0</span>; i &lt; arr3.length; i++) &#123;</span><br><span class="line">			arr3[i]=i+<span class="number">5</span>;</span><br><span class="line">			System.out.println(arr3[i]);</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="comment">//6.数组的复制</span></span><br><span class="line">		System.out.println(<span class="string">&quot;数组的复制&quot;</span>);</span><br><span class="line">		<span class="type">int</span> []y=<span class="keyword">new</span> <span class="title class_">int</span>[] &#123;<span class="number">5</span>,<span class="number">3</span>,<span class="number">4</span>,<span class="number">1</span>&#125;;</span><br><span class="line">		</span><br><span class="line">		System.out.println(<span class="string">&quot;最可笑的复制方式&quot;</span>);</span><br><span class="line">		<span class="type">int</span> []m1=y;</span><br><span class="line">		<span class="keyword">for</span> (<span class="type">int</span> i : m1) &#123;</span><br><span class="line">			System.out.println(i);</span><br><span class="line">		&#125;</span><br><span class="line">		System.out.println(<span class="string">&quot;最劳累的复制方式&quot;</span>);</span><br><span class="line">		<span class="type">int</span> [] m2=<span class="keyword">new</span> <span class="title class_">int</span>[y.length];</span><br><span class="line">		<span class="keyword">for</span> (<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">0</span>; i &lt; y.length; i++) &#123;</span><br><span class="line">			m2[i]=y[i];<span class="comment">//目标数组赋值上原数组的每一个元素</span></span><br><span class="line">			System.out.println(m2[i]);</span><br><span class="line">		&#125;</span><br><span class="line">		System.out.println(<span class="string">&quot;最简单的复制方式&quot;</span>);</span><br><span class="line">		<span class="type">int</span> [] m3=y.clone();</span><br><span class="line">		<span class="keyword">for</span> (<span class="type">int</span> i : m3) &#123;</span><br><span class="line">			System.out.println(i);</span><br><span class="line">		&#125;</span><br><span class="line">		System.out.println(<span class="string">&quot;最灵活的复制方式，可以实现删除功能&quot;</span>);</span><br><span class="line">		<span class="type">int</span> []m4=<span class="keyword">new</span> <span class="title class_">int</span> [y.length];</span><br><span class="line">		<span class="comment">//System.arraycopy(1, 2, 3, 4, 5);</span></span><br><span class="line">		<span class="comment">//1.原数组</span></span><br><span class="line">		<span class="comment">//2.原数组的起始位置</span></span><br><span class="line">		<span class="comment">//3.目标数组</span></span><br><span class="line">		<span class="comment">//4.目标数组的起始位置</span></span><br><span class="line">		<span class="comment">//5.个数        </span></span><br><span class="line">		System.out.println(<span class="string">&quot;输出 5  3  1&quot;</span>);</span><br><span class="line">		System.arraycopy(y, <span class="number">0</span>, m4, <span class="number">0</span>,y.length-<span class="number">2</span> );</span><br><span class="line">		System.arraycopy(y, <span class="number">3</span>, m4, <span class="number">2</span>, y.length-<span class="number">3</span>);</span><br><span class="line">		<span class="keyword">for</span> (<span class="type">int</span> i : m4) &#123;</span><br><span class="line">			System.out.println(i);</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="comment">//7.数组的排序</span></span><br><span class="line">		<span class="comment">/**</span></span><br><span class="line"><span class="comment">		int []x= &#123;6,3,8,2,9,1&#125;;</span></span><br><span class="line"><span class="comment">	          6  3  8  2  9  1----&gt;1  2  3  6  8  9</span></span><br><span class="line"><span class="comment">	   第一趟：6  3  8  2  9  1</span></span><br><span class="line"><span class="comment">	     第一次：3  6  8  2  9  1</span></span><br><span class="line"><span class="comment">	     第二次：3  6  8  2  9  1</span></span><br><span class="line"><span class="comment">	     第三次：3  6  2  8  9  1</span></span><br><span class="line"><span class="comment">	     第四次：3  6  2  8  9  1</span></span><br><span class="line"><span class="comment">	     第五次：3  6  2  8  1  9</span></span><br><span class="line"><span class="comment">	   第二趟：3  6  2  8  1  9</span></span><br><span class="line"><span class="comment">	     第一次：3  6  2  8  1  9</span></span><br><span class="line"><span class="comment">	     第二次：3  2  6  8  1  9</span></span><br><span class="line"><span class="comment">	     第三次：3  2  6  8  1  9</span></span><br><span class="line"><span class="comment">	     第四次：3  2  6  1  8  9</span></span><br><span class="line"><span class="comment">	   第三趟：3  2  6  1  8  9</span></span><br><span class="line"><span class="comment">	     第一次：2  3  6  1  8  9</span></span><br><span class="line"><span class="comment">	     第二次：2  3  6  1  8  9</span></span><br><span class="line"><span class="comment">	     第三次：2  3  1  6  8  9</span></span><br><span class="line"><span class="comment">	   第四趟:2  3  1  6  8  9</span></span><br><span class="line"><span class="comment">	     第一次：2  3  1  6  8  9</span></span><br><span class="line"><span class="comment">	     第二次：2  1  3  6  8  9</span></span><br><span class="line"><span class="comment">	   第五趟：2  1  3  6  8  9</span></span><br><span class="line"><span class="comment">	     第一次：1  2  3  6  8  9</span></span><br><span class="line"><span class="comment">总结：x.length=4</span></span><br><span class="line"><span class="comment">    趟数：x.length-1</span></span><br><span class="line"><span class="comment">    次数：x.length-趟数</span></span><br><span class="line"><span class="comment">    */</span></span><br><span class="line">		System.out.println(<span class="string">&quot;===========数组的排序=============&quot;</span>);</span><br><span class="line">		<span class="type">int</span> []x=&#123;<span class="number">6</span>,<span class="number">3</span>,<span class="number">8</span>,<span class="number">2</span>,<span class="number">9</span>,<span class="number">1</span>&#125;;</span><br><span class="line">		<span class="keyword">for</span> (<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">0</span>; i &lt; x.length-<span class="number">1</span>; i++) &#123;<span class="comment">//趟数</span></span><br><span class="line">			<span class="keyword">for</span> (<span class="type">int</span> <span class="variable">j</span> <span class="operator">=</span> <span class="number">0</span>; j &lt; x.length-<span class="number">1</span>-i; j++) &#123;<span class="comment">//次数</span></span><br><span class="line">				<span class="keyword">if</span> (x[j]&gt;x[j+<span class="number">1</span>]) &#123;</span><br><span class="line">					<span class="type">int</span> n=x[j];</span><br><span class="line">					x[j]=x[j+<span class="number">1</span>];</span><br><span class="line">					x[j+<span class="number">1</span>]=n;</span><br><span class="line">				&#125;</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">for</span> (<span class="type">int</span> i : x) &#123;</span><br><span class="line">			System.out.print(i+<span class="string">&quot;  &quot;</span>);</span><br><span class="line">		&#125;</span><br><span class="line">		System.out.println(<span class="string">&quot;利用数组的工具类Arrays中的Sort方法&quot;</span>);</span><br><span class="line">		<span class="type">int</span>[]xx=<span class="keyword">new</span> <span class="title class_">int</span> [] &#123;<span class="number">6</span>,<span class="number">3</span>,<span class="number">8</span>,<span class="number">2</span>,<span class="number">9</span>,<span class="number">1</span>&#125;;</span><br><span class="line">		Arrays.sort(xx);</span><br><span class="line">		<span class="keyword">for</span> (<span class="type">int</span> i : xx) &#123;</span><br><span class="line">			System.out.print(i+<span class="string">&quot;  &quot;</span>);</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
@@ -108,6 +377,6 @@
 <td>c++班</td>
 </tr>
 </tbody></table>
-]]></content>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=536623312&auto=0&height=66"></iframe>]]></content>
   </entry>
 </search>
