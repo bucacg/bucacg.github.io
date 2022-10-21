@@ -25,7 +25,7 @@
   <entry>
     <title>Python(胶水语言)入门</title>
     <url>/2022/10/20/Python%E6%88%90%E9%95%BF%E8%AE%B0/</url>
-    <content><![CDATA[<h3 id="python基础"><a href="#python基础" class="headerlink" title="python基础"></a><em>python基础</em></h3><span id="more"></span>
+    <content><![CDATA[<h3 id="python基础1"><a href="#python基础1" class="headerlink" title="python基础1"></a><em>python基础1</em></h3><span id="more"></span>
 
 <p><em>先安利学习网站</em></p>
 <p><a href="http://c.biancheng.net/python/">C语言中文网</a> </p>
@@ -111,18 +111,10 @@
 <h3 id="bool-类型"><a href="#bool-类型" class="headerlink" title="bool 类型"></a>bool 类型</h3><blockquote>
 <p>生活的 真 与 假 </p>
 </blockquote>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">变量名 = 布尔值</span><br><span class="line"></span><br><span class="line">flag = <span class="literal">True</span></span><br><span class="line">lose = <span class="literal">False</span></span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">变量名 = 布尔值</span><br><span class="line"></span><br><span class="line">flag = <span class="literal">True</span></span><br><span class="line">lose = <span class="literal">False</span></span><br></pre></td></tr></table></figure>
 
-<p>注意：</p>
-<ul>
-<li>首字母必须要大写，</li>
-<li>布尔类型，也可以是数值， 并且运算，True &#x3D; 1  False &#x3D; 0</li>
-</ul>
-<h2 id="五-标识符与关键字"><a href="#五-标识符与关键字" class="headerlink" title="五.标识符与关键字"></a>五.标识符与关键字</h2><h3 id="什么是标识符"><a href="#什么是标识符" class="headerlink" title="什么是标识符"></a>什么是标识符</h3><p><img src="D:/02%E5%8F%98%E9%87%8F%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B.assets/1655048857217.png" alt="1655048857217"></p>
-<h3 id="标识符规则"><a href="#标识符规则" class="headerlink" title="标识符规则"></a>标识符规则</h3><ul>
-<li>标识符由字母、下划线和数字组成，且数字不能开头</li>
-</ul>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">   fromNo12	 <span class="comment">#True   </span></span><br><span class="line"><span class="keyword">from</span><span class="comment">#12      #False</span></span><br><span class="line">my_Boolean   <span class="comment">#True</span></span><br><span class="line">my-Boolean   <span class="comment">#False</span></span><br><span class="line">Obj2         <span class="comment">#True</span></span><br><span class="line">2ndObj       <span class="comment">#False</span></span><br><span class="line">myInt        <span class="comment">#True</span></span><br><span class="line">test1        <span class="comment">#True</span></span><br><span class="line">Mike2jack    <span class="comment">#True</span></span><br><span class="line">My_tExt      <span class="comment">#True</span></span><br><span class="line">_test        <span class="comment">#True</span></span><br><span class="line">test!<span class="number">32</span>      <span class="comment">#True</span></span><br><span class="line">haha(da)tt   <span class="comment">#False</span></span><br><span class="line"><span class="built_in">int</span>   <span class="comment"># int 类型标识符  不要与Python解释器的重复，会产生冲突    #False</span></span><br><span class="line">jack_roseint  <span class="comment">#True  </span></span><br><span class="line">jack&amp;rose     <span class="comment">#False</span></span><br><span class="line">GUI           <span class="comment">#False</span></span><br><span class="line">G.U.I         <span class="comment">#False</span></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">注意：</span><br><span class="line"></span><br><span class="line">- 首字母必须要大写，</span><br><span class="line">- 布尔类型，也可以是数值， 并且运算，True = 1  False = 0</span><br><span class="line"></span><br><span class="line">## 五.标识符与关键字</span><br><span class="line"></span><br><span class="line">### 什么是标识符</span><br><span class="line"></span><br><span class="line">![1655048857217](D:/02%E5%8F%98%E9%87%8F%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B.assets/1655048857217.png)</span><br><span class="line"></span><br><span class="line">### 标识符规则</span><br><span class="line"></span><br><span class="line">- 标识符由字母、下划线和数字组成，且数字不能开头 </span><br><span class="line"></span><br><span class="line">```python</span><br><span class="line">    fromNo12	 #True   </span><br><span class="line">	from#12      #False</span><br><span class="line">	my_Boolean   #True</span><br><span class="line">	my-Boolean   #False</span><br><span class="line">	Obj2         #True</span><br><span class="line">	2ndObj       #False</span><br><span class="line">	myInt        #True</span><br><span class="line">	test1        #True</span><br><span class="line">	Mike2jack    #True</span><br><span class="line">	My_tExt      #True</span><br><span class="line">	_test        #True</span><br><span class="line">	test!32      #True</span><br><span class="line">	haha(da)tt   #False</span><br><span class="line">	int   # int 类型标识符  不要与Python解释器的重复，会产生冲突    #False</span><br><span class="line">	jack_roseint  #True  </span><br><span class="line">	jack&amp;rose     #False</span><br><span class="line">	GUI           #False</span><br><span class="line">	G.U.I         #False</span><br></pre></td></tr></table></figure>
 
 <p><strong>Python 标识符是区分大小写</strong> </p>
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line">Andy != andy </span><br></pre></td></tr></table></figure>
@@ -163,6 +155,8 @@
 </ul>
 <h2 id="六-运算符"><a href="#六-运算符" class="headerlink" title="六.运算符"></a>六.运算符</h2><p>提到运算符，我想大家首先想到的就是加、减、乘、除之类，但python可以进行的运算有很多种，可不只加减乘除这么简单 ，我们写代码时常见的运算符有以下几种</p>
 <h3 id="1-算术运算符"><a href="#1-算术运算符" class="headerlink" title="1.算术运算符"></a>1.算术运算符</h3><p>下面以a&#x3D;10 ,b&#x3D;20为例进行计算</p>
+</li>
+</ul>
 <table>
 <thead>
 <tr>
@@ -224,9 +218,9 @@
 <td>把 &#x3D; 号<em>右边的结果 赋给 左边的变量</em>，如 num &#x3D; 1 + 2 * 3，结果num的值为7</td>
 </tr>
 </tbody></table>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 单个变量赋值</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>num = <span class="number">10</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>num</span><br><span class="line"><span class="number">10</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 多个变量赋值</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>num1, num2, f1, str1 = <span class="number">100</span>, <span class="number">200</span>, <span class="number">3.14</span>, <span class="string">&quot;hello&quot;</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>num1</span><br><span class="line"><span class="number">100</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>num2</span><br><span class="line"><span class="number">200</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>f1</span><br><span class="line"><span class="number">3.14</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>str1</span><br><span class="line"><span class="string">&quot;hello&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 输出多个变量</span></span><br><span class="line"><span class="built_in">print</span>(num1, num2, f1, str1)</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+  <figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 单个变量赋值</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>num = <span class="number">10</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>num</span><br><span class="line"><span class="number">10</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 多个变量赋值</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>num1, num2, f1, str1 = <span class="number">100</span>, <span class="number">200</span>, <span class="number">3.14</span>, <span class="string">&quot;hello&quot;</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>num1</span><br><span class="line"><span class="number">100</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>num2</span><br><span class="line"><span class="number">200</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>f1</span><br><span class="line"><span class="number">3.14</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>str1</span><br><span class="line"><span class="string">&quot;hello&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 输出多个变量</span></span><br><span class="line"><span class="built_in">print</span>(num1, num2, f1, str1)</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
-<p>复合赋值运算符</p>
+<p>  复合赋值运算符</p>
 <table>
 <thead>
 <tr>
@@ -271,27 +265,22 @@
 <td>c &#x2F;&#x2F;&#x3D; a 等效于 c &#x3D; c &#x2F;&#x2F; a</td>
 </tr>
 </tbody></table>
-<h2 id="作业"><a href="#作业" class="headerlink" title="作业"></a>作业</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"> 1.用变量存储我们生活中的数值信息,并输出  </span><br><span class="line">   ``年龄</span><br><span class="line">   ``身高</span><br><span class="line">   ``生日</span><br><span class="line">   ``日期</span><br><span class="line">   ``时间</span><br><span class="line"> ``tips: 年龄为int类型 身高为float类型 生日为int类型 日期为int类型 时间 int类型</span><br><span class="line"> </span><br><span class="line"> 2.用什么函数可以知道变量的类型</span><br><span class="line"> 	tips：自己定义两个变量，用Python内置函数</span><br><span class="line"> </span><br><span class="line">3.判断以下变量是否正确, 并且用True（对） False（错）表示对错</span><br><span class="line">	_=6			(T)</span><br><span class="line">	_8=12		(T)</span><br><span class="line">	6age=12 	(F)</span><br><span class="line">	true=23 	(T)</span><br><span class="line">	print=22	(T)</span><br><span class="line"></span><br><span class="line">	</span><br><span class="line">4.用编程计算 a = 10，b = 20 的 加，减，乘，除。 并且打印出结果</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">5.交换两个变量的值，a = 10 ,b =20   变成 a =20 ,b=10</span><br><span class="line">	不能直接复值 a =20 b =10</span><br><span class="line">	tips：利用Python特殊机制</span><br><span class="line">		  算数运算符</span><br><span class="line">		  第三个变量</span><br><span class="line">		  </span><br><span class="line">6.变量赋值：如何将100赋值给变量A，将100.0赋值给变量B；并分别判断A，B的变量类型	</span><br><span class="line"></span><br><span class="line">7.如何将 Hello，world!赋值给变量C，并判断C的变量类型</span><br><span class="line"></span><br><span class="line">8.如何实现将对象 1, 2, john 同时复制给变量a,b,c(一行代码)</span><br><span class="line"></span><br><span class="line">9.请找出下面代码的错误</span><br><span class="line">   break=1  # </span><br><span class="line">   print(break)</span><br><span class="line">	</span><br><span class="line"></span><br><span class="line"> </span><br></pre></td></tr></table></figure>
+<h2 id="作业"><a href="#作业" class="headerlink" title="作业"></a>作业</h2>  <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"> 1.用变量存储我们生活中的数值信息,并输出  </span><br><span class="line">   ``年龄</span><br><span class="line">   ``身高</span><br><span class="line">   ``生日</span><br><span class="line">   ``日期</span><br><span class="line">   ``时间</span><br><span class="line"> ``tips: 年龄为int类型 身高为float类型 生日为int类型 日期为int类型 时间 int类型</span><br><span class="line"> </span><br><span class="line"> 2.用什么函数可以知道变量的类型</span><br><span class="line"> 	tips：自己定义两个变量，用Python内置函数</span><br><span class="line"> </span><br><span class="line">3.判断以下变量是否正确, 并且用True（对） False（错）表示对错</span><br><span class="line">	_=6			(T) #正确但不建议</span><br><span class="line">	_8=12		(T)</span><br><span class="line">	6age=12 	(F)</span><br><span class="line">	true=23 	(T)#True才是关键字，这里原则上正确，但是不符合规范</span><br><span class="line">	print=22	(F)</span><br><span class="line"></span><br><span class="line">	</span><br><span class="line">4.用编程计算 a = 10，b = 20 的 加，减，乘，除。 并且打印出结果</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">5.交换两个变量的值，a = 10 ,b =20   变成 a =20 ,b=10  （面试题）</span><br><span class="line">	不能直接复值 a =20 b =10</span><br><span class="line">	tips：利用Python特殊机制</span><br><span class="line">		  算数运算符</span><br><span class="line">		  第三个变量</span><br><span class="line">		  a,b=b,a</span><br><span class="line">		  </span><br><span class="line">6.变量赋值：如何将100赋值给变量A，将100.0赋值给变量B；并分别判断A，B的变量类型	</span><br><span class="line"></span><br><span class="line">7.如何将 Hello，world!赋值给变量C，并判断C的变量类型</span><br><span class="line"></span><br><span class="line">8.如何实现将对象 1, 2, john 同时复制给变量a,b,c(一行代码)</span><br><span class="line"></span><br><span class="line">9.请找出下面代码的错误</span><br><span class="line">   break=1  #  break为关键字</span><br><span class="line">   print(break)</span><br><span class="line">	</span><br><span class="line"></span><br><span class="line"> </span><br></pre></td></tr></table></figure>
 
-<p>​</p>
+<p>  ​</p>
 <h2 id="巩固博客"><a href="#巩固博客" class="headerlink" title="巩固博客"></a>巩固博客</h2><ul>
 <li><a href="http://c.biancheng.net/view/2171.html">http://c.biancheng.net/view/2171.html</a></li>
 <li>前期不建议你们使用pycharm ， 为什么， 因为他会自动提示， 补全代码</li>
 <li>idle，方便练习代码    </li>
 <li>pycharm 熟悉了再用</li>
 </ul>
-<p>​</p>
-<p>​</p>
-<p>​</p>
-<p>​</p>
-<p>​</p>
-<p>​</p>
-<p>​</p>
-<p>​</p>
-<p>​</p>
-</li>
-</ul>
-<p>	</p>
+<p>  ​</p>
+<p>  ​</p>
+<p>  ​</p>
+<p>  ​</p>
+<p>  ​</p>
+<p>  ​</p>
+<p>  ​	</p>
 ]]></content>
   </entry>
   <entry>
